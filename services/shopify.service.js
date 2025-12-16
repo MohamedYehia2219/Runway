@@ -22,7 +22,7 @@ export async function createShopifyCustomer({email, password, fname, lname, phon
   };
 
   const res = await fetch(
-    `https://${SHOPIFY_STORE}/admin/api/2025-01/graphql.json`,
+    `https://${SHOPIFY_STORE}/admin/api/2024-10/graphql.json`,
     {
       method: "POST",
       headers: {
